@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+*  {
+  font-family: 'ubuntu mono';
+}
+
+#persons {
+  border-collapse: collapse;
+  width: 55%;
+  }
+
+  #persons td, #persons th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+  }
+
+  #persons tr:nth-child(even){
+  background-color: #f2f2f2;
+  }
+
+  #persons tr:hover {
+  background-color: #ddd;
+  color: white
+  }
+  #persons th {
+    padding-top: 14px;
+    padding-bottom: 16px;
+    text-align: left;
+    background-color: #2abb86;
+    color:white;
+    font-size: 26px;
+  }
